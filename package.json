@@ -21,7 +21,7 @@
     "64",
     "napi"
   ],
-  "version": "3.0.3",
+  "version": "3.0.2",
   "license": "MIT",
   "author": "Anna Henningsen <anna@addaleax.net>",
   "repository": {
@@ -36,9 +36,6 @@
     "prebuild": "prebuildify --napi --tag-armv",
     "prepack": "prebuildify-ci download && ([ $(ls prebuilds | wc -l) = '5' ] || (echo 'Some prebuilds are missing'; exit 1))",
     "release": "np"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
     "debug": "^4.1.1",
