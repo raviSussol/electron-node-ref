@@ -29,6 +29,9 @@
     "url": "https://github.com/raviSussol/electron-node-ref.git"
   },
   "main": "./lib/ref.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "docs": "node docs/compile",
     "test": "echo test",
