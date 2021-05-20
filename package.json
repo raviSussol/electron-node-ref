@@ -37,6 +37,9 @@
     "prepack": "prebuildify-ci download && ([ $(ls prebuilds | wc -l) = '5' ] || (echo 'Some prebuilds are missing'; exit 1))",
     "release": "np"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "debug": "^4.1.1",
     "electron-bindings": "^1.0.1",
