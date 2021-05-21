@@ -37,7 +37,7 @@
     "test": "echo test",
     "install": "node-gyp-build",
     "prebuild": "prebuildify --napi --tag-armv",
-    "prepack": "prebuildify-ci download && ([ $(ls prebuilds | wc -l) = '5' ] || (echo 'Some prebuilds are missing'; exit 1))",
+    "prepack": "",
     "release": "np"
   },
   "dependencies": {
