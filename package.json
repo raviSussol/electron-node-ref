@@ -21,7 +21,7 @@
     "64",
     "napi"
   ],
-  "version": "3.0.3",
+  "version": "3.0.4",
   "license": "MIT",
   "author": "Ravi Shrestha <rvreturn@gmail.com>",
   "repository": {
